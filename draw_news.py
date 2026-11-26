@@ -233,7 +233,7 @@ kick = "STRAIT OF HORMUZ  ·  GULF"
 d.text((X0, 296), kick, font=SANS_B(11), fill=OCHRE)
 pw = pill(d, X0 + d.textlength(kick, font=SANS_B(11)) + 12, 296, "CLAIM", SANS_B(9), RED, RED)
 d.text((X0 + d.textlength(kick, font=SANS_B(11)) + 12 + pw + 8, 298), "Reuters", font=SANS(9), fill=GREY)
-hl = ["Iran says mines set two tankers", "on fire in the Strait of Hormuz"]
+hl = ["Iran says two tankers hit mines", "and caught fire in the Strait of Hormuz"]
 y = 314
 for line in hl:
     d.text((X0, y), line, font=SERIF_B(30), fill=INK)
@@ -249,7 +249,7 @@ d.line([(X0, 430), (X1, 430)], fill=LGREY, width=1)
 nums = [
     ("-6.2%", RED, "Kospi close, worst day of the AI sell-off"),
     ("2", NAVY, "tankers hit mines in the Strait of Hormuz"),
-    ("£2,166", NAVY, "Ofgem energy cap Jan–Mar 2027"),
+    ("£2,166", NAVY, "Typical annual bill under Ofgem cap, Jan–Mar 2027"),
     ("19", RED, "19 killed, 20 wounded across Blue Nile state"),
     ("1st", OCHRE, "foreigner to fly to China's space station"),
 ]
@@ -382,7 +382,7 @@ third = [
      "UK energy bills to rise 26% from January",
      "Cap affects around 20m households on standard variable tariffs.", "Ofgem"),
     (9, "KHARTOUM · WAR", RUST, "REPORTED",
-     "RSF drone strike kills 19 civilians",
+     "RSF drone attacks kill 19 civilians",
      "19 killed and 20 wounded across Blue Nile state, rights group says.", "Reuters"),
     (10, "CANBERRA · DIPLOMACY", NAVY2, "OFFICIAL",
      "Solomons sign pact with Australia",
@@ -446,7 +446,7 @@ dc1 = "Left out as earlier: Riyadh tower (Tue 24) · Huawei verdict (Tue 24) · 
 dc2 = "Dow 50,000 (Tue 24) · Dell $54.9bn (Tue 24) · Nvidia return (Mon 23)."
 d.text((X0 + 100, 978), dc1, font=SANS(10), fill=(60, 60, 58))
 d.text((X0 + 100, 990), dc2, font=SANS(10), fill=(60, 60, 58))
-src = ("Sources: Reuters · AP · AFP · Vatican News · Al Jazeera · SCMP · Yonhap — drawings original, drawn in code.  "
+src = ("Sources credited per story · Original illustrations drawn in code.  "
        "REPORTED wire reports · OFFICIAL authority's own word · CLAIM one side's account")
 d.text((X0, 1006), src, font=SANS(10), fill=GREY)
 
